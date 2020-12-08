@@ -1,9 +1,9 @@
 dependencies:
 - name: elasticsearch
-  repository: https://charts.helm.sh/stable
-  version: 1.32.5
-- name: mongodb-replicaset
-  repository: https://charts.helm.sh/stable
-  version: 3.17.2
-digest: sha256:0739f788f42d6109a3594ddc20b076e45cff4b517b1c28050c1090bf4872133c
-generated: "2020-11-23T15:59:38.25701433+01:00"
+  repository: https://helm.elastic.co
+  version: 6.8.13
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 10.0.5
+digest: sha256:b1def5bc39155dba69b862404d3e2a1746915f88f555a5b6fad7400bb47068eb
+generated: "2020-11-26T16:21:34.955067407+01:00"
