@@ -269,6 +269,11 @@ data:
             {{- end }}
           {{- end }}
         {{- end }}
+        {{- if .Values.googleAuth.enabled }}
+        - type: google
+          clientId: {{ .Values.googleAuth.clientId }}
+          clientSecret: {{ .Values.googleAuth.clientSecret }}
+        {{- end }}
     # SMTP configuration used to send mails
     email:
       enabled: {{ .Values.smtp.enabled }}
