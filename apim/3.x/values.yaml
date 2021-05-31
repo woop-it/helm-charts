@@ -48,7 +48,7 @@ extraInMemoryUsers: |
     #firstName:
     #lastName:
 
-googltAuth:
+googleAuth:
   enabled: false
   clientId: ""
   clientSecret: ""
